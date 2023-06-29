@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-29T17:49:05 IST" name="Suite" finished-at="2023-06-29T17:51:03 IST" duration-ms="117589">
+    <groups>
+    </groups>
+    <test started-at="2023-06-29T17:49:05 IST" name="Test" finished-at="2023-06-29T17:51:03 IST" duration-ms="117589">
+      <class name="TestingClassPackage.TestingVerifyLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestingClassPackage.TestingVerifyLogin@50eac852]" started-at="2023-06-29T17:49:06 IST" name="setup" finished-at="2023-06-29T17:50:47 IST" duration-ms="100923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogin(java.lang.String,java.lang.String)[pri:0, instance:TestingClassPackage.TestingVerifyLogin@50eac852]" started-at="2023-06-29T17:50:56 IST" name="VerifyLogin" data-provider="LoginDataProvider" finished-at="2023-06-29T17:51:02 IST" duration-ms="5432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tc@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dainik Chandra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method signature="verifySignOut()[pri:0, instance:TestingClassPackage.TestingVerifyLogin@50eac852]" started-at="2023-06-29T17:51:02 IST" name="verifySignOut" finished-at="2023-06-29T17:51:02 IST" depends-on-methods="TestingClassPackage.TestingVerifyLogin.VerifyLogin" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestingClassPackage.TestingVerifyLogin@50eac852]" started-at="2023-06-29T17:51:02 IST" name="tearDown" finished-at="2023-06-29T17:51:03 IST" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestingClassPackage.TestingVerifyLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
